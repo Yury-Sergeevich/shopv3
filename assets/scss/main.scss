@@ -1,0 +1,12 @@
+@import "./reset.scss";
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark body {
+  background-color: #212020;
+  color: #ffffff;
+}
