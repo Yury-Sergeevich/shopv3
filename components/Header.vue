@@ -1,7 +1,9 @@
 <template>
   <header class="header">
-    <h2>header</h2>
-    <ThemeToggle />
+    <div class="container">
+      <h2>header</h2>
+      <ThemeToggle />
+    </div>
   </header>
 </template>
 
@@ -9,11 +11,8 @@
 
 <style lang="scss">
 .header {
+  width: 100%;
   top: 0;
   position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 15px;
 }
 </style>
